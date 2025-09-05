@@ -6,6 +6,27 @@
   word-wrap: wrap;
 }
 
+header, footer {
+  padding: 1rem 1rem;
+  background-color: black;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.icon {
+  display: block;
+  aspect-ratio: 1 / 1;
+  width: 40px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
 body {
   background: linear-gradient(to bottom left, rgb(30, 30, 50), black);
   color: white;
@@ -14,11 +35,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-header, footer {
-  padding: 1rem 1rem;
-  background-color: black;
-  font-size: 1.1rem;
-}
 
 main section {
   width: 100%;
